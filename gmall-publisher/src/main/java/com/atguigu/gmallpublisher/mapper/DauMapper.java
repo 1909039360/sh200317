@@ -1,0 +1,14 @@
+package com.atguigu.gmallpublisher.mapper;
+
+import java.util.List;
+import java.util.Map;
+
+/**
+ * Author: doubleZ
+ * Datetime:2020/8/17   11:06
+ * Description:
+ */
+public interface DauMapper {
+    public Integer selectDauTotal(String date);
+    public List<Map> selectDauTotalHourMap(String date);
+}
